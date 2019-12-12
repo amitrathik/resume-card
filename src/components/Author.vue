@@ -18,7 +18,6 @@
     <p class="author__links">
       <a href="//twitter.com/gridsome">Follow on Twitter</a>
       <a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
-      <g-link to="/pokedex">Pokedex</g-link>
     </p>
   </div>
 </template>
