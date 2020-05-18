@@ -1,0 +1,24 @@
+{
+  "name": "rscard",
+  "version": "1.0.0",
+  "description": "AMITRATHIK.COM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitrathik/resume-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitrathik/resume-card/issues"
+  },
+  "homepage": "https://github.com/amitrathik/resume-card#readme",
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

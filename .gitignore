@@ -1,12 +1,2 @@
-node_modules
-.vscode
-# Local Netlify folder
-.netlify
-
-*.log
-.cache
-.DS_Store
-src/.temp
-dist
-.env
-.env.*
+/node_modules
+/dist
