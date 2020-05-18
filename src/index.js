@@ -1,3 +1,3 @@
 import $ from 'jquery'
 
-$('body').css('background','red');
+$('body').css('background','white');
