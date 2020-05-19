@@ -97,3 +97,5 @@ var rsOptions = {
 		]
     }	
 };
+
+console.log('options for rscard')
