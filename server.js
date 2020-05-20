@@ -6,13 +6,11 @@ const port = 8080;
 
 const server = http.createServer(function (req,res){
     
+}).listen(port,hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
 });
 
 readFiles('./rscard');
-/**
- * Promise all
- * @author Loreto Parisi (loretoparisi at gmail dot com)
- */
 function promiseAllP(items, block) {
     var promises = [];
     items.forEach(function(item,index) {
@@ -25,16 +23,18 @@ function promiseAllP(items, block) {
     return Promise.all(promises);
 } //promiseAll
 
-function readFiles(dirname) {
+function readFiles(dir) {
     return new Promise((resolve, reject) => {
-        fs.readdir(dirname, function(err, filenames) {
+        fs.readdir(dir, function(err, files) {
             if(err) return reject(err)
-            console.log(filenames, filenames.length);
+            console.log(files, files.length);
+            files.forEach((file,index) => {
+                fs.readFile(path.resolve(dir,file), function (err, data){
+                    // const {r}
+                    console.log(file, path.parse(file))
+                    return resolve({file: file, data: data});
+                });
+            });
         });
   });
 }
-
-
-server.listen(port,hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
-});
