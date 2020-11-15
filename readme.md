@@ -1,11 +1,11 @@
 TASKS:
 -----
-- [] Purchase an HTML template off of Envato Market
-- [] Want to convert the template into a theme for any static site generator 
-- [] Replace placeholder content with API-driven code 
-- [] Template uses Bootstrap 3 and jQuery --> Update to JSX + CSS-in-JS(?)
-- [] Will start with Gridsome to practice VueJS.
-- [] Will love to demostrate my ability to adopt different frameworks or technologies by converting code to Gatsby and other architectures. 
+- [ ] Purchase an HTML template off of Envato Market
+- [ ] Want to convert the template into a theme for any static site generator 
+- [ ] Replace placeholder content with API-driven code 
+- [ ] Template uses Bootstrap 3 and jQuery --> Update to JSX + CSS-in-JS(?)
+- [ ] Will start with Gridsome to practice VueJS.
+- [ ] Will love to demostrate my ability to adopt different frameworks or technologies by converting code to Gatsby and other architectures. 
 
 Baby steps.
 
