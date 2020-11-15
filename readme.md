@@ -1,6 +1,6 @@
 TASKS:
 -----
-- [ ] Purchase an HTML template off of Envato Market
+- [x] Purchase an HTML template off of Envato Market
 - [ ] Want to convert the template into a theme for any static site generator 
 - [ ] Replace placeholder content with API-driven code 
 - [ ] Template uses Bootstrap 3 and jQuery --> Update to JSX + CSS-in-JS(?)
